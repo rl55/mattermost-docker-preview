@@ -1,15 +1,15 @@
 # Copyright (c) 2016 Mattermost, Inc. All Rights Reserved.
 # See License.txt for license information.
-FROM mysql:5.7
+#FROM postgres:latest
 
 #
 # Configure SQL
 #
 
-ENV MYSQL_ROOT_PASSWORD=mostest
-ENV MYSQL_USER=mmuser
-ENV MYSQL_PASSWORD=mostest
-ENV MYSQL_DATABASE=mattermost_test
+#ENV MYSQL_ROOT_PASSWORD=mostest
+#ENV MYSQL_USER=mmuser
+#ENV MYSQL_PASSWORD=mostest
+#ENV MYSQL_DATABASE=mattermost_test
 
 #
 # Configure Mattermost
